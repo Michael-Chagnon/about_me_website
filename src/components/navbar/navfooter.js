@@ -27,7 +27,7 @@ function NavigationMenuDemoFooter(props) {
         <h5 class="mb-3 mx-8 font-bold font-fair tracking-tight text-4xl text-gray-900 dark:text-white">{props.title}</h5>
         <p class="mb-3 mx-8 tracking-wider leading-2 font-normal font-nunito text-error-lightGray text-sm dark:text-gray-400">{props.description}</p>
         <div className="flex justify-left ml-8" >
-          <a href="/UTalentPage" target="_blank" legacyBehavior passHref>
+          <a href="/" target="_blank" legacyBehavior passHref>
             <Button className="font-roboto w-full h-3/4 font-medium text-xs bg-transparent text-error-buttonBlue py-2 px-4 w-24 border rounded-full border-error-buttonBlue">
             View Project
             </Button>
