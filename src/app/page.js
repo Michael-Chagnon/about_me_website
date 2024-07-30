@@ -22,7 +22,9 @@ export default function Page() {
       <div className="flex flex-col min-h-screen">
         <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
-            <div className="ml-24 font-comfortaa">Michael Chagnon</div>
+            <a href="/" legacyBehavior passHref>
+              <div className="ml-24 font-comfortaa">Michael Chagnon</div>
+            </a>
             <div className="font-comfortaa flex justify-end flex-grow">
               <NavigationMenuDemo />
             </div>
@@ -30,7 +32,7 @@ export default function Page() {
         </nav>
 
         {/* Main content container */}
-        <div className="flex-grow">
+        <div className="">
           <div className="justify-left ml-24">
             <div className="mt-16 text-6xl w-1/3 font-fair font-error-buttonBlue font-bold">
               Hello, my name is Michael!
@@ -59,11 +61,6 @@ export default function Page() {
                   </Button>
                 </a>
               </div>
-              <div className="flex justify-center pt-6 ml-2">
-                  <Button onclick="typeWriter()" className="font-roboto font-medium bg-transparent text-error-buttonBlue py-2 px-4 w-24 border rounded-lg border-error-buttonBlue">
-                    hi
-                  </Button>
-              </div>
             </div>
           </div>
 
@@ -79,16 +76,17 @@ export default function Page() {
             <div></div>
           </div>
 
-          <div className="mt-36 scale-150 flex justify-center">
+
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-3xl p-6">
             <NavigationMenuDemoFooter
-              className=""
+              className="w-full"
               title="UTalent"
               description="A web application that looks to revolutionize the freelance market for college students, facilitating the exchange of student provided services and the professional work needs of companies."
             />
           </div>
-          <div className="mt-64 scale-150 flex justify-center">
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-3xl p-6">
             <NavigationMenuDemoFooter
-              className=""
+              className="w-full"
               title="Secure Drop File Transfer"
               description="Server and client communication for a secure file transfer program. Uses SSL, TCP sockets and threading to establish encrypted communication from the client to the server and the server to the client to send file contents."
             />

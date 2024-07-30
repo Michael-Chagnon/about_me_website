@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       boxShadow: {
         'glow': '0 0 30px rgba(255, 255, 255, 0.5)', // White glow effect
+        'custom': '7px 7px 4px 0px rgba(0, 0, 0, 0.25)',
       },
       fontFamily: {
         fair:['"Playfair Display"'],
@@ -84,6 +85,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      spacing: {
+        '999': '36rem'
+      },
     },
     colors: {
       'error':{
@@ -109,6 +113,7 @@ module.exports = {
         buttonBlue: '#25282B',
         A4: '#4A4A4A',
         A470: '#4A4A4AB3',
+        brown: '#463730',
       }
     },
   },
