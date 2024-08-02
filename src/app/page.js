@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import shape2 from "../../public/images/shape2.png";
+import UTalent from "../../public/images/UTalent1.png";
+import Secure_Drop from "../../public/images/secure-file-transfer.webp";
+
 
 var i = 0;
 var txt = 'Lorem ipsum typing effect!'; /* The text */
@@ -43,7 +46,7 @@ export default function Page() {
             <div className="flex items-center justify-left">
               <div className="flex justify-center pt-6">
                 <Link href="#projects" legacyBehavior passHref>
-                  <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen w-24 hover:bg-error-beautifulGreen text-error-buttonBlue">
+                  <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen w-24 hover:text-error-white hover:bg-error-brown text-error-black">
                     Projects
                   </Button>
                 </Link>
@@ -56,7 +59,7 @@ export default function Page() {
                   legacyBehavior
                   passHref
                 >
-                  <Button className="font-roboto font-medium bg-transparent text-error-buttonBlue py-2 px-4 w-24 border rounded-lg border-error-buttonBlue">
+                  <Button className="font-roboto font-medium bg-transparent text-error-buttonBlue py-2 px-4 w-24 border rounded-lg border-error-A4">
                     LinkedIn
                   </Button>
                 </a>
@@ -77,18 +80,66 @@ export default function Page() {
           </div>
 
 
-          <div className="mt-12 mx-auto flex justify-center items-center max-w-3xl p-6">
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6">
             <NavigationMenuDemoFooter
               className="w-full"
               title="UTalent"
               description="A web application that looks to revolutionize the freelance market for college students, facilitating the exchange of student provided services and the professional work needs of companies."
+              imageSrc={UTalent}
+              link="/UTalentPage"
+              highlights={[
+                "React",
+                "Tailwind",
+                "Next.js",
+                "Competition",
+                "Collaborative team project",
+                "Difference Maker",
+              ]}
             />
           </div>
-          <div className="mt-12 mx-auto flex justify-center items-center max-w-3xl p-6">
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6">
             <NavigationMenuDemoFooter
               className="w-full"
               title="Secure Drop File Transfer"
               description="Server and client communication for a secure file transfer program. Uses SSL, TCP sockets and threading to establish encrypted communication from the client to the server and the server to the client to send file contents."
+              imageSrc={Secure_Drop}
+              link="/SecureDropPage"
+              highlights={[
+                "Python",
+                "Encryption",
+                "Sockets",
+              ]}
+            />
+          </div>
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6">
+            <NavigationMenuDemoFooter
+              className="w-full"
+              title="Dynamic Multiplication Table"
+              description="A dynamic multiplication table created using jQuery sliders, form validation and event handling. Dynamically creates and removes HTML elements to display multiplication table as well as, create and remove user created tabs for documentation of tables."
+              imageSrc={Secure_Drop}
+              link="/DynamicMultiplicationTablePage"
+              highlights={[
+                "HTML",
+                "JavaScript",
+                "CSS",
+                "jQuery",
+                "Form Validation",
+                "Dynamic "
+              ]}
+            />
+          </div>
+          <div className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6">
+            <NavigationMenuDemoFooter
+              className="w-full"
+              title="Secure Drop File Transfer"
+              description="Server and client communication for a secure file transfer program. Uses SSL, TCP sockets and threading to establish encrypted communication from the client to the server and the server to the client to send file contents."
+              imageSrc={Secure_Drop}
+              link="/SecureDropPage"
+              highlights={[
+                "Python",
+                "Encryption",
+                "Sockets",
+              ]}
             />
           </div>
         </div>
