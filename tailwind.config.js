@@ -114,6 +114,8 @@ module.exports = {
         A4: '#4A4A4A',
         A470: '#4A4A4AB3',
         brown: '#463730',
+        gitPurple: '#6E5494',
+        secureGray: '#eef1f4',
       }
     },
   },

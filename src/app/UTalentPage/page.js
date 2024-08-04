@@ -12,6 +12,7 @@ import me_and_aman from "../../../public/images/me_and_aman.jpeg";
 import utal_poster from "../../../public/images/UTalent_poster.jpeg";
 import tech_stack from "../../../public/images/Tech Stack.png";
 import bg_img_2 from "../../../public/images/bg-img-2.png";
+import git_image from "../../../public/images/github-mark/github-mark-white.png";
 
 
 
@@ -195,19 +196,26 @@ export default function Page() {
             Participating in the UML Rist Difference Maker Challenge significantly impacted our project. It pushed us to thoroughly develop and validate our idea, ultimately leading to the successful creation and launch of UTalent.
           </p>
 
-            <div className="flex justify-center pt-6 mt-24 ml-2">
-              <a
-                href="https://u-talent.vercel.app/"
-                target="_blank"
-                legacyBehavior
-                passHref
-              >
+          <div className="flex justify-center pt-6 mt-24 ml-2 space-x-4">
+            <div className="text-center">
+              <a href="https://u-talent.vercel.app/" target="_blank" legacyBehavior passHref>
                 <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen h-12 w-36 hover:bg-error-beautifulGreen text-lg text-error-white">
                   Go To UTalent
                 </Button>
               </a>
-        </div>
-        <div className="flex justify-center mt-6"><p className="text-error-A4 font-nunito text-3xl font-normal ">Visit The Site Here!</p></div>
+              <p className="mt-2 text-error-gitPurple">Visit the UTalent app</p>
+            </div>
+            <div className="text-center">
+              <a href="https://github.com/amanbhagat41/UTalent" target="_blank" legacyBehavior passHref>
+                <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen h-12 w-36 hover:bg-error-beautifulGreen text-lg text-error-white flex items-center justify-center space-x-2">
+                  <Image className="w-1/2 h-1/2" src={git_image} alt="Icon"/>
+                  <span>Another Button</span>
+                </Button>
+              </a>
+              <p className="mt-2 text-error-darkGray">Visit another link</p>
+            </div>
+          </div>
+
 
         </div>
       </div>
