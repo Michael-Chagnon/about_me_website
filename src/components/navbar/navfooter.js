@@ -20,7 +20,7 @@ function NavigationMenuDemoFooter(props) {
         <div className="relative w-full h-full">
           <Image className="rounded-l-lg " src={props.imageSrc} alt="" layout="fill" />
         </div>
-        <div className="flex flex-col justify-between p-4 w-full h-full leading-normal">
+        <div className="flex flex-col justify-between p-4 w-full h-full leading-normal bg-error-white rounded-lg">
           <h5 className="mb-3 mx-8 font-bold font-fair tracking-tight text-5xl text-gray-900 dark:text-white">{props.title}</h5>
           <p className="mx-8 tracking-wider leading-2 font-normal font-nunito text-error-A4 text-base dark:text-gray-400">{props.description}</p>
           <div className="mx-8 mt-">

@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState, useRef } from "react";
 import { NavigationMenuDemo } from "@/components/navbar/navhomepage";
 import { NavigationMenuDemoFooter } from "@/components/navbar/navfooter";
 import { Button } from "@/components/ui/button";
@@ -12,8 +14,6 @@ import me_and_aman from "../../../public/images/me_and_aman.jpeg";
 import utal_poster from "../../../public/images/UTalent_poster.jpeg";
 import tech_stack from "../../../public/images/Tech Stack.png";
 import bg_img_2 from "../../../public/images/bg-img-2.png";
-
-
 
 
 export default function Page() {

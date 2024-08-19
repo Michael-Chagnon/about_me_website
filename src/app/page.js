@@ -151,7 +151,7 @@ export default function Page() {
             <div></div>
           </div>
           <div
-            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in"
+            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in transform transition-transform duration-300 hover:scale-110"
             ref={addToRefs}
           >
             <NavigationMenuDemoFooter
@@ -171,7 +171,7 @@ export default function Page() {
             />
           </div>
           <div
-            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in"
+            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in transform transition-transform duration-300 hover:scale-105"
             ref={addToRefs}
           >
             <NavigationMenuDemoFooter
@@ -184,7 +184,7 @@ export default function Page() {
             />
           </div>
           <div
-            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in"
+            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in transform transition-transform duration-300 hover:scale-105"
             ref={addToRefs}
           >
             <ProjectCardReverse
@@ -197,7 +197,7 @@ export default function Page() {
             />
           </div>
           <div
-            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in"
+            className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in transform transition-transform duration-300 hover:scale-105"
             ref={addToRefs}
           >
             <NavigationMenuDemoFooter

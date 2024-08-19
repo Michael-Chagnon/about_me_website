@@ -68,7 +68,7 @@ export default function Page() {
       <Image className="absolute mt-999 right-0 z-0 fade-in" src={bg_img_2} alt="Shape 2" ref={addToRefs}></Image>
 
 
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen fade-in" ref={addToRefs}>
         <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
           <a href="/" legacyBehavior passHref>
@@ -82,8 +82,8 @@ export default function Page() {
 
 
         <div className="relative ml-24 mr-52 mt-16">
-          <nav className="fixed right-0 mx-2 z-50 fade-in" ref={addToRefs}>
-            <div className="font-nunito border-x border-y border-error-A4 shadow-custom rounded px-4 py-4 bg-error-white">
+          <nav className="fixed right-0 mx-2 z-40 fade-in" ref={addToRefs}>
+            <div className="font-nunito border-x border-y border-error-A4 shadow-custom rounded-xl px-4 py-4 bg-error-white">
             <Link href="#UTalent" legacyBehavior passHref>
               <p className=" cursor-pointer text-error-A4 text-xl font-bold">UTalent</p>
             </Link>
@@ -154,7 +154,7 @@ export default function Page() {
                   <li>Need for alternative pathways to gain experience for students</li>
                 </ul>
                 
-                <h3 className="font-nunito mt-6 text-xl font-bold text-error-A4 fade-in" ref={addToRefs}>Employer Issues:</h3>
+                <h3 className="font-nunito mt-6 text-xl font-bold text-error-A4">Employer Issues:</h3>
                 <ul className="list-disc list-inside font-nunito ml-6 text-xl font-normal text-error-A4">
                   <li>Complex and risky recruitment process</li>
                   <li>Resource-heavy recruitment process</li>
@@ -165,63 +165,64 @@ export default function Page() {
             </div>
             
               
-            <p className="font-nunito mt-6 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+            <p className="font-nunito mt-6 text-xl font-normal text-error-A4">
               Consequently, there is a clear need for an alternative pathway that allows students to gain pertinent experience before graduation, enhancing their employability. Additionally, companies would benefit from a service that facilitates connections with high-quality students in a way that minimizes risk, ultimately saving time, resources, and money.
             </p>
           </div>
 
-          <div id="Solution" className="h-0.5 bg-error-A470 my-16 mx-full rounded fade-in" ref={addToRefs}></div>
+          <div id="Solution" className="h-0.5 bg-error-A470 my-16 mx-full rounded"></div>
 
 
           <div className="">
-            <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Solution!</h2>
-            <p className="font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+            <h2 className="font-nunito text-4xl font-normal text-error-A4">Solution!</h2>
+            <p className="font-nunito mt-4 text-xl font-normal text-error-A4">
               To tackle this issue, we developed UTalent, a web application designed to streamline freelance work arrangements between college students and companies. UTalent offers several key benefits:
             </p>
             
-            <p className="font-nunito mt-4 text-xl font-bold text-error-A4 fade-in" ref={addToRefs}>For Students:</p>
-            <ul className="list-disc list-inside font-nunito ml-6 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+            <p className="font-nunito mt-4 text-xl font-bold text-error-A4">For Students:</p>
+            <ul className="list-disc list-inside font-nunito ml-6 text-xl font-normal text-error-A4">
               <li>Gain valuable experience without affecting your full-time student status or delaying graduation.</li>
             </ul>
             
-            <p className="font-nunito mt-4 text-xl font-bold text-error-A4 fade-in" ref={addToRefs}>For Companies:</p>
-            <ul className="list-disc list-inside font-nunito ml-6 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+            <p className="font-nunito mt-4 text-xl font-bold text-error-A4">For Companies:</p>
+            <ul className="list-disc list-inside font-nunito ml-6 text-xl font-normal text-error-A4">
               <li>Avoid the long-term commitment of traditional internships.</li>
               <li>Flexibility to hire for specific tasks.</li>
               <li>Assess skills before deciding on further investment.</li>
             </ul>
             
-            <p className="font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+            <p className="font-nunito mt-4 text-xl font-normal text-error-A4">
               This innovative model creates a win-win situation, providing students with essential experience while offering companies a risk-minimized, efficient way to connect with high-quality talent.
             </p>
           </div>
 
-          <div className="grid grid-cols-12 mt-16 fade-in" ref={addToRefs}>
+          <div className="grid grid-cols-12 mt-16">
             <p className="col-span-2 mr-4 text-lg h-fit shadow-custom rounded-xl border-x border-y border-error-A4 p-2 font-nunito text-error-A4 mb-4">Landing page showcasing our mission and key message. It features job listings to capture user interest and provides clear options to begin using our service.</p>
             <div className="col-span-10">
+              <Image className="absolute object-cover z-10" src={shape2} alt="Shape 2"></Image>
               <Image className="rounded-xl border-x border-y border-error-A4 shadow-custom z-11" src={UTalent_homepage} alt="Shape 2"></Image>
               <p className="text-xs mt-2 font-nunito text-error-A4">UTalent Landing Page</p>
             </div>
             <div/>
           </div>
 
-          <div id="DifferenceMaker" className="h-0.5 bg-error-A4 my-12 mx-full rounded fade-in" ref={addToRefs}></div>
+          <div id="DifferenceMaker" className="h-0.5 bg-error-A4 my-12 mx-full rounded"></div>
 
 
           
 
 
           <div className="mt-6">
-            <h2 className="text-4xl font-nunito font-semibold text-error-A4 mb-4 fade-in" ref={addToRefs}>
+            <h2 className="text-4xl font-nunito font-semibold text-error-A4 mb-4">
               UML Rist Difference Maker Challenge
             </h2>
-            <p className="font-nunito text-xl font-normal text-error-A4 mb-6 fade-in" ref={addToRefs}>
+            <p className="font-nunito text-xl font-normal text-error-A4 mb-6">
               In the process of developing this application, our team decided to enter the UML Rist Difference Maker Challenge. This competition tasks students with creating new innovations and solutions to address social, environmental, and economic problems in the community. It provided a unique platform for us to refine our concept and present it to a panel of judges.
             </p>
           </div>
           
           <div className="m-6 flex items-start">
-            <ul className="list-disc list-inside font-nunito text-xl text-error-A4 fade-in" ref={addToRefs}>
+            <ul className="list-disc list-inside font-nunito text-xl text-error-A4">
               <li className="mb-4">Required to flesh out our idea and consider the market opportunity associated with our product.</li>
               <li className="mb-4">Made our problem and solution clear and presented it to a panel of judges.</li>
               <li className="mb-4">Provided a breakdown of the resources necessary for moving forward.</li>
@@ -230,20 +231,20 @@ export default function Page() {
             <Image
               src={utal_poster}
               alt="Competition Image"
-              className="ml-24 mt- rounded-xl shadow-custom w-4/5 fade-in" ref={addToRefs}
+              className="ml-24 mt- rounded-xl shadow-custom w-4/5"
             />
           </div>
           
-          <p className="font-nunito text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
+          <p className="font-nunito text-xl font-normal text-error-A4">
             Participating in the UML Rist Difference Maker Challenge significantly impacted our project. It pushed us to thoroughly develop and validate our idea, ultimately leading to the successful creation and launch of UTalent.
           </p>
-          <div id="Links" className="h-0.5 bg-error-A4 my-12 mx-full rounded fade-in" ref={addToRefs}></div>
+          <div id="Links" className="h-0.5 bg-error-A4 my-12 mx-full rounded"></div>
 
         </div>
 
         <div className="flex flex-col items-center">
   <div className="flex space-x-28">
-    <div className="flex flex-col items-center fade-in" ref={addToRefs}>
+    <div className="flex flex-col items-center">
       <a href="https://u-talent.vercel.app/" target="_blank" legacyBehavior passHref>
         <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen h-12 hover:bg-error-beautifulGreen text-lg text-error-white flex items-center justify-center">
         <Image className="w-6 h-6 mr-2" src={globe} alt="Icon" />
@@ -252,7 +253,7 @@ export default function Page() {
       </a>
       <p className="mt-2 text-3xl font-nunito text-error-4A text-center">Visit the site here!</p>
     </div>
-    <div className="flex flex-col items-center fade-in" ref={addToRefs}>
+    <div className="flex flex-col items-center">
       <a href="https://github.com/amanbhagat41/UTalent" target="_blank" legacyBehavior passHref>
         <Button className="font-roboto font-medium border rounded-lg bg-error-gitPurple h-12 hover:bg-error-beautifulGreen text-lg text-error-white flex items-center justify-center space-x-2">
           <Image className="w-6 h-6" src={git_image} alt="Icon" />
@@ -262,7 +263,7 @@ export default function Page() {
       <p className="mt-2 text-3xl font-nunito text-error-4A text-center">Visit the repository here!</p>
     </div>
   </div>
-  <footer className="bg-gray-800 py-6 mt-8 fade-in" ref={addToRefs}>
+  <footer className="bg-gray-800 py-6 mt-8">
         <div className="container mx-auto text-center">
           <div className="flex justify-center space-x-6">
             <a
