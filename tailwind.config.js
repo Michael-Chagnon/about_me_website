@@ -1,3 +1,5 @@
+const { Linkedin } = require('lucide-react');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -116,6 +118,7 @@ module.exports = {
         brown: '#463730',
         gitPurple: '#6E5494',
         secureGray: '#eef1f4',
+        LinkedinBlue: '#0072b1',
       }
     },
   },

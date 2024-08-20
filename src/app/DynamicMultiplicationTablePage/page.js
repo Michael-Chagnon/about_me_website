@@ -88,16 +88,16 @@ export default function Page() {
         <nav className="fixed right-0 mx-2 z-50 fade-in" ref={addToRefs}>
             <div className="font-nunito border-x border-y border-error-A4 shadow-custom rounded px-4 py-4 bg-error-white">
             <Link href="#Header" legacyBehavior passHref>
-              <p className=" cursor-pointer text-error-A4 text-xl font-bold">Dynamic Table</p>
+              <p className=" cursor-pointer text-error-A4 text-xl hover:underline font-bold">Dynamic Table</p>
             </Link>
             <Link href="#What" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">What?</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">What?</p>
             </Link>
             <Link href="#Tools" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">Tools</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">Tools</p>
             </Link>
             <Link href="#Links" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">Links</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">Links</p>
             </Link>
             </div>
           </nav>
@@ -109,7 +109,7 @@ export default function Page() {
             legacyBehavior
             passHref
           >
-            <h1 className="font-fair text-left text-6xl font-bold text-error-black fade-in" ref={addToRefs}>Dynamic Multiplication Table</h1>
+            <h1 className="font-fair text-left text-6xl font-bold text-error-black fade-in hover:underline" ref={addToRefs}>Dynamic Multiplication Table</h1>
           </a>
             <p className="font-nunito text-lg mt-6 font-normal text-error-A4 fade-in" ref={addToRefs}>This project was an early introduction to graphical user interfaces, getting me familiar with JavaScript, HTML and CSS basics while including important concepts like form validation, as well as dynamic and intractable web pages. </p>
             <div className="h-0.5 bg-error-A470 mt-6 mx-full rounded fade-in" ref={addToRefs}></div>
@@ -191,7 +191,7 @@ export default function Page() {
     </div>
     <div className="flex flex-col items-center fade-in" ref={addToRefs}>
       <a href="https://github.com/Michael-Chagnon/GUI_HW_4_Part_2" target="_blank" legacyBehavior passHref>
-        <Button className="font-roboto font-medium border rounded-lg bg-error-gitPurple h-12 hover:bg-error-beautifulGreen text-lg text-error-white flex items-center justify-center space-x-2">
+        <Button className="font-roboto font-medium border rounded-lg bg-error-gitPurple h-12 hover:bg-error-gitPurple text-lg text-error-white flex items-center justify-center space-x-2">
           <Image className="w-6 h-6" src={git_image} alt="Icon" />
           <span>Dynamic Multiplication Table Repository</span>
         </Button>

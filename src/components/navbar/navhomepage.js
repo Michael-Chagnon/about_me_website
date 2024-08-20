@@ -58,7 +58,7 @@ function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList className="mr-24">
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/AboutPage" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>

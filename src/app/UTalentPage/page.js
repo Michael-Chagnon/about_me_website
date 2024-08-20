@@ -85,22 +85,22 @@ export default function Page() {
           <nav className="fixed right-0 mx-2 z-50 fade-in" ref={addToRefs}>
             <div className="font-nunito border-x border-y border-error-A4 shadow-custom rounded px-4 py-4 bg-error-white">
             <Link href="#UTalent" legacyBehavior passHref>
-              <p className=" cursor-pointer text-error-A4 text-xl font-bold">UTalent</p>
+              <p className=" cursor-pointer text-error-A4 text-xl hover:underline font-bold">UTalent</p>
             </Link>
             <Link href="#UTalent" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">How?</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">How?</p>
             </Link>
             <Link href="#Why" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">Why?</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">Why?</p>
             </Link>
             <Link href="#Solution" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">Solution!</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">Solution!</p>
             </Link>
             <Link href="#DifferenceMaker" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">DifferenceMaker!</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">DifferenceMaker!</p>
             </Link>
             <Link href="#Links" legacyBehavior passHref>
-              <p className="cursor-pointer text-error-A4 underline mt-2">Links</p>
+              <p className="cursor-pointer text-error-A4 hover:underline mt-2">Links</p>
             </Link>
             </div>
           </nav>
@@ -112,7 +112,7 @@ export default function Page() {
             legacyBehavior
             passHref
           >
-            <h1 className="font-fair text-left text-6xl font-bold text-error-black fade-in" ref={addToRefs}>UTalent</h1>
+            <h1 className="font-fair text-left text-6xl font-bold text-error-black fade-in hover:underline" ref={addToRefs}>UTalent</h1>
           </a>
             <p className="font-nunito text-lg mt-6 font-normal text-error-A4 fade-in" ref={addToRefs}>This project was developed for the UML Rist Difference Maker Challenge to addresses key social, environmental, and economic issues. Our team worked on development of a web app that aimed at helping college students gain experience through freelance work, avoiding traditional internships and benefiting employers by allowing low risk candidate assessment without long-term commitments.</p>
             <div className="h-0.5 bg-error-A470 mt-6 mx-full rounded fade-in" ref={addToRefs}></div>
@@ -254,7 +254,7 @@ export default function Page() {
     </div>
     <div className="flex flex-col items-center fade-in" ref={addToRefs}>
       <a href="https://github.com/amanbhagat41/UTalent" target="_blank" legacyBehavior passHref>
-        <Button className="font-roboto font-medium border rounded-lg bg-error-gitPurple h-12 hover:bg-error-beautifulGreen text-lg text-error-white flex items-center justify-center space-x-2">
+        <Button className="font-roboto font-medium border rounded-lg bg-error-gitPurple h-12 hover:bg-error-gitPurple text-lg text-error-white flex items-center justify-center space-x-2">
           <Image className="w-6 h-6" src={git_image} alt="Icon" />
           <span>UTalent Repository</span>
         </Button>
