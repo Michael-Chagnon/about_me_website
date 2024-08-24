@@ -14,6 +14,7 @@ import me_and_aman from "../../../public/images/me_and_aman.jpeg";
 import utal_poster from "../../../public/images/UTalent_poster.jpeg";
 import tech_stack from "../../../public/images/Tech Stack.png";
 import bg_img_2 from "../../../public/images/bg-img-2.png";
+import bg_img_4 from "../../../public/images/shape4.png";
 import git_image from "../../../public/images/github-mark/github-mark-white.png";
 import globe from "../../../public/images/globe-02.png";
 import envelope from "../../../public/images/bi_envelope-fill.png";
@@ -66,6 +67,7 @@ export default function Page() {
     <div id="UTalent" className="scroll-smooth">
       <Image className="absolute left-0" src={shape2} alt="Shape 2" ref={addToRefs}></Image>
       <Image className="absolute mt-999 right-0 z-0 fade-in" src={bg_img_2} alt="Shape 2" ref={addToRefs}></Image>
+      <Image className="absolute mt-100 z-0 fade-in" src={bg_img_4} alt="Shape 4" ref={addToRefs}></Image>
 
 
       <div className="flex flex-col min-h-screen">
@@ -161,7 +163,10 @@ export default function Page() {
                   <li>High costs of choosing unsuitable candidates</li>
                 </ul>
               </div>
-              <Image className="z-10 ml-24 mt-2 rounded-xl shadow-custom w-4/5 fade-in" ref={addToRefs} src={group_picture} alt="Shape 2"></Image>
+              <div className="z-10 ml-24 mt-2 ">
+              <Image className="rounded-xl shadow-custom w-4/5 fade-in" ref={addToRefs} src={group_picture} alt="Shape 2"></Image>
+              <p className="text-xs mt-2 font-nunito text-error-A4 fade-in" ref={addToRefs}>The Team</p>
+              </div>
             </div>
             
               
@@ -197,7 +202,7 @@ export default function Page() {
           </div>
 
           <div className="grid grid-cols-12 mt-16 fade-in" ref={addToRefs}>
-            <p className="col-span-2 mr-4 text-lg h-fit shadow-custom rounded-xl border-x border-y border-error-A4 p-2 font-nunito text-error-A4 mb-4">Landing page showcasing our mission and key message. It features job listings to capture user interest and provides clear options to begin using our service.</p>
+            <p className="col-span-2 mr-4 text-lg h-fit shadow-custom bg-error-white rounded-xl border-x border-y border-error-A4 p-2 font-nunito text-error-A4 mb-4">Landing page showcasing our mission and key message. It features job listings to capture user interest and provides clear options to begin using our service.</p>
             <div className="col-span-10">
               <Image className="rounded-xl border-x border-y border-error-A4 shadow-custom z-11" src={UTalent_homepage} alt="Shape 2"></Image>
               <p className="text-xs mt-2 font-nunito text-error-A4">UTalent Landing Page</p>

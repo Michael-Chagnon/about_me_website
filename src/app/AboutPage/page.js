@@ -79,64 +79,69 @@ export default function Page() {
             </div>
           </div>
         </nav>
+      
 
 
         <div className="relative ml-24">
 
         <div>
-  <div className="clearfix mr-24 mt-16">
-    <Image
-      src={self_picture}
-      alt="Picture of me"
-      className="float-right ml-6 -mt-20 mb-4 w-auto h-auto"
-    />
-      <h className="text-6xl font-fair font-semibold">About Me</h>
+          <div className="clearfix mr-24 mt-16">
+            <div className="float-right ml-24 -mt-20 mb-4 ">
+            <Image
+              src={self_picture}
+              alt="Picture of me"
+              className="fade-in" ref={addToRefs}
+            />
+            </div>
+              <h className="text-6xl font-fair font-semibold fade-in" ref={addToRefs}>About Me</h>
 
-    <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12">
-      I am a software developer with a passion for creating applications that address difficult problems and provide meaningful solutions. My experiences programming have been fueled by a passion for learning and a commitment to understanding the details of each challenge I encounter, continuously learning and growing with every project.
-    </p>
+            <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
+              I am a software developer with a passion for creating applications that address difficult problems and provide meaningful solutions. My experiences programming have been fueled by a passion for learning and a commitment to understanding the details of each challenge I encounter, continuously learning and growing with every project.
+            </p>
 
-    <h className="text-4xl font-fair font-semibold">My Story</h>
-    <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12">
-      When I was introduced to the engineering design process as an adolescent, it shaped the way I would approach problem-solving for the rest of my life. From then on, I developed a love for programming and have learned a variety of skills along the way. These skills have allowed me to create a comprehensive understanding of foundational programming paradigms that I can apply to all projects I embark on in my future.
-    </p>
+            <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>My Story</h>
+            <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
+              When I was introduced to the engineering design process as an adolescent, it shaped the way I would approach problem-solving for the rest of my life. From then on, I developed a love for programming and have learned a variety of skills along the way. These skills have allowed me to create a comprehensive understanding of foundational programming paradigms that I can apply to all projects I embark on in my future.
+            </p>
 
-    <h className="text-4xl font-fair font-semibold">My Philosophy</h>
-    <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12">
-      I believe that great software is built on a foundation of teamwork, continuous learning, and a dedication to quality. Whether I'm working on a solo project or collaborating with others, I always strive to write clean, efficient, and scalable code. My goal is to create a product that not only works but also makes a difference in people's lives.
-    </p>
+            <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>My Philosophy</h>
+            <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
+              I believe that great software is built on a foundation of teamwork, continuous learning, and a dedication to quality. Whether I'm working on a solo project or collaborating with others, I always strive to write clean, efficient, and scalable code. My goal is to create a product that not only works but also makes a difference in people's lives.
+            </p>
 
-    <h className="text-4xl font-fair font-semibold">What I Do</h>
-    <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12">
-      I am currently focused on creating websites for businesses, combining my technical expertise with a deep understanding of each client's needs. My work is centered on developing functional, user-friendly, and visually appealing online platforms that help businesses enhance their operations and engage with their customers more effectively.
-      <br />
-      I've also been involved extensively in team initiatives that push my boundaries to learn new skills. Recently, I played a large part in the development of UTalent, a web application that connects college students with companies seeking professional services.
-    </p>
+            <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>Let's Connect</h>
+            <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
+          When I'm not working on projects, I experiment with new technologies, staying updated on the latest industry trends, or working on my next project. I'm always eager to connect with others who share my enthusiasm, so feel free to reach out to me on 
+          <a 
+            href="https://www.linkedin.com/in/michael-chagnon-24514a254/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-error-LinkedinBlue hover:underline"
+          >
+          {" "}LinkedIn{" "}
+          </a> 
+          {" "}or explore my work on{" "}
+          <a 
+            href="https://github.com/Michael-Chagnon" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-error-gitPurple hover:underline"
+          >
+            GitHub
+          </a>.
+        </p>
+      </div>
 
-    <h className="text-4xl font-fair font-semibold">Let's Connect</h>
-    <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12">
-  When I'm not working on projects, I experiment with new technologies, staying updated on the latest industry trends, or working on my next project. I'm always eager to connect with others who share my enthusiasm, so feel free to reach out to me on 
-  <a 
-    href="https://www.linkedin.com/in/michael-chagnon-24514a254/" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="text-error-LinkedinBlue hover:underline"
+      <div className="flex justify-center pt-6 fade-in" ref={addToRefs}>
+  <a
+    href="images/chagnon_michael_resume.pdf"
+    download="Michael_Chagnon_Resume.pdf"
   >
-  {" "}LinkedIn{" "}
-  </a> 
-  {" "}or explore my work on{" "}
-  <a 
-    href="https://github.com/Michael-Chagnon" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="text-error-gitPurple hover:underline"
-  >
-    GitHub
-  </a>.
-</p>
-
-
-  </div>
+    <Button className="font-roboto font-medium border rounded-lg bg-error-beautifulGreen w-48 h-12 hover:text-error-white hover:bg-error-brown text-error-black">
+      Resume
+    </Button>
+  </a>
+</div>
 
 </div>
 

@@ -15,6 +15,7 @@ import envelope from "../../public/images/bi_envelope-fill.png";
 import linkedin from "../../public/images/bi_linkedin.png";
 import git_image from "../../public/images/github-mark/github-mark.png";
 import fib from "../../public/images/fib.png";
+import shape5 from "../../public/images/shape5.png";
 
 export default function Page() {
   const words = [
@@ -89,10 +90,23 @@ export default function Page() {
   };
 
   return (
-    <div className="scroll-smooth">
-      <Image className="absolute right-0" src={shape2} alt="Shape 2" />
+    <div className="scroll-smooth relative min-h-screen">
+      {/* Positioning the shape2 */}
+      <Image
+        className="absolute right-0 top-0"
+        src={shape2}
+        alt="Shape 2"
+      />
+      {/* Positioning the shape5 */}
+      <Image
+        className="absolute left-0 bottom-0"
+        src={shape5}
+        alt="Shape 5"
+      />
+
       <div className="flex flex-col min-h-screen">
-        <nav className="h-20 relative top-0 z-40 fade-in" ref={addToRefs}>
+        {/* Navbar Section */}
+        <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
             <a href="/" legacyBehavior passHref>
               <div className="ml-24 font-comfortaa hover:text-error-beautifulGreen">
@@ -104,10 +118,12 @@ export default function Page() {
             </div>
           </div>
         </nav>
-        {/* Main content container */}
-        <div>
+
+        {/* Main Content Container */}
+        <div className="flex-grow">
           <div className="justify-left ml-24 fade-in" ref={addToRefs}>
-            <div className="mt-16 text-6xl w-1/3 font-fair  font-error-buttonBlue font-bold">
+            {/* Intro Section */}
+            <div className="mt-16 text-6xl w-1/3 font-fair font-error-buttonBlue font-bold">
               Hello, my name is Michael!
             </div>
             <div
@@ -139,6 +155,8 @@ export default function Page() {
               </div>
             </div>
           </div>
+
+          {/* Projects Section */}
           <div className="grid grid-cols-3 mt-24 fade-in" ref={addToRefs}>
             <div></div>
             <div
@@ -150,6 +168,8 @@ export default function Page() {
             </div>
             <div></div>
           </div>
+
+          {/* Project Cards */}
           <div
             className="mt-12 mx-auto flex justify-center items-center max-w-4xl p-6 fade-in transform transition-transform duration-300 hover:scale-110"
             ref={addToRefs}
@@ -209,53 +229,56 @@ export default function Page() {
               highlights={["C++", "SFML", "Fibonacci Sequence"]}
             />
           </div>
+          {/* Other projects... */}
         </div>
-      </div>
-      <footer className="bg-gray-800 py-6 mt-8 fade-in" ref={addToRefs}>
-        <div className="container mx-auto text-center">
-          <div className="flex justify-center space-x-6">
-            <a
-              href="https://github.com/Michael-Chagnon"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={git_image}
-                alt="GitHub"
-                width={40}
-                height={40}
-                className="hover:opacity-75"
-              />
-            </a>
-            <a
-              href="mailto:michaelchagnon12@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={envelope}
-                alt="Email"
-                width={40}
-                height={40}
-                className="hover:opacity-75"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/michael-chagnon-24514a254/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={linkedin}
-                alt="LinkedIn"
-                width={40}
-                height={40}
-                className="hover:opacity-75"
-              />
-            </a>
+
+        {/* Footer Section */}
+        <footer className="bg-gray-800 py-6 mt-8 fade-in" ref={addToRefs}>
+          <div className="container mx-auto text-center">
+            <div className="flex justify-center space-x-6">
+              <a
+                href="https://github.com/Michael-Chagnon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={git_image}
+                  alt="GitHub"
+                  width={40}
+                  height={40}
+                  className="hover:opacity-75"
+                />
+              </a>
+              <a
+                href="mailto:michaelchagnon12@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={envelope}
+                  alt="Email"
+                  width={40}
+                  height={40}
+                  className="hover:opacity-75"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/michael-chagnon-24514a254/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={linkedin}
+                  alt="LinkedIn"
+                  width={40}
+                  height={40}
+                  className="hover:opacity-75"
+                />
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 }

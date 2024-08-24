@@ -88,7 +88,8 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       spacing: {
-        '999': '36rem'
+        '999': '36rem',
+        '100': '85rem',
       },
     },
     colors: {
