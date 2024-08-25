@@ -75,7 +75,7 @@ export default function Page() {
         <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
           <a href="/" legacyBehavior passHref>
-            <div className="ml-24 font-comfortaa">Michael Chagnon</div>
+            <div className="ml-24 font-comfortaa hover:text-error-brown">Michael Chagnon</div>
           </a>
             <div className="font-comfortaa flex justify-end flex-grow">
               <NavigationMenuDemo />

@@ -89,7 +89,7 @@ module.exports = {
       },
       spacing: {
         '999': '36rem',
-        '100': '85rem',
+        '100': '100rem',
       },
     },
     colors: {
