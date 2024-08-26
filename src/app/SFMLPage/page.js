@@ -128,9 +128,9 @@ export default function Page() {
 
           <div className="mt-12 flex">
             <div className="flex-1">
-              <h2 id="How" className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Fibonacci’s Sequence</h2>
+              <h2 id="How" className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Fibonacci&apos;s Sequence</h2>
               <p className="font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
-              Fibonacci's sequence is a series of numbers in which each number is the sum of the two preceding ones, starting from 0 and 1. The sequence typically begins as follows:
+              Fibonacci&apos;s sequence is a series of numbers in which each number is the sum of the two preceding ones, starting from 0 and 1. The sequence typically begins as follows:
 <br/><br/>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 <br/><br/>The sequence can be defined by the recurrence relation:
 <br/><br/>F(n) = F(n−1) + F(n−2)
@@ -151,7 +151,7 @@ export default function Page() {
           <div className="z-10">
             <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Implementation</h2>
             <p className="z-10 font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
-            The code implements a Fibonacci LFSR by following a process similar to generating Fibonacci numbers, but instead of adding the numbers, it uses XOR operations on selected "tap" bits of the seed to generate a new bit. This new bit is then added to the sequence, and the seed is shifted, similar to how Fibonacci's sequence progresses by shifting and summing the last two numbers. Simulating a pseudo-random number sequence that uses the same iterative feedback principles as Fibonacci's sequence.
+            The code implements a Fibonacci LFSR by following a process similar to generating Fibonacci numbers, but instead of adding the numbers, it uses XOR operations on selected "tap" bits of the seed to generate a new bit. This new bit is then added to the sequence, and the seed is shifted, similar to how Fibonacci&apos;s sequence progresses by shifting and summing the last two numbers. Simulating a pseudo-random number sequence that uses the same iterative feedback principles as Fibonacci&apos;s sequence.
             </p>
           </div>
 

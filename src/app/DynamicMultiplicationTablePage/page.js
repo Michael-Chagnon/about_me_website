@@ -160,7 +160,7 @@ export default function Page() {
 
             <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in mt-16" ref={addToRefs}>Tabs</h2>
             <p className="z-10 font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
-            I used jQuery's tabs plugin to store users' previously created tables. By clicking the "Add Tab" button, users can save their current table. This is done by copying the HTML elements of the table and recreating it in the jQuery tab. The saved tables retain full functionality and are scrollable. Tabs are named with the table values, and users can delete a table with an "x" icon or select multiple tables for deletion.
+            I used jQuery&apos;s tabs plugin to store users&apos; previously created tables. By clicking the &quot;Add Tab&quot; button, users can save their current table. This is done by copying the HTML elements of the table and recreating it in the jQuery tab. The saved tables retain full functionality and are scrollable. Tabs are named with the table values, and users can delete a table with an &quot;x&quot; icon or select multiple tables for deletion.
             </p>
             </div>
             <div>
@@ -171,7 +171,7 @@ export default function Page() {
 
           <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in mt-16" ref={addToRefs}>Dynamic Change</h2>
             <p className="z-10 font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
-            The most crucial feature of this website was ensuring items update in real-time instantly when input parameters change. This was achieved using jQuery’s event handlers. When an input parameter changes, the form validation checks its validity. If valid, the old table is cleared, and a new one is created based on the updated inputs. Changes in either the text box or slider trigger this process immediately, ensuring no downtime between the user's input and the displayed result.
+            The most crucial feature of this website was ensuring items update in real-time instantly when input parameters change. This was achieved using jQuery’s event handlers. When an input parameter changes, the form validation checks its validity. If valid, the old table is cleared, and a new one is created based on the updated inputs. Changes in either the text box or slider trigger this process immediately, ensuring no downtime between the user&apos;s input and the displayed result.
             </p>
 
             <div id="Sliders" className="h-0.5 bg-error-A470 my-12 mx-full rounded fade-in" ref={addToRefs}></div>

@@ -106,12 +106,12 @@ export default function Page() {
 
             <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>My Philosophy</h>
             <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
-              I believe that great software is built on a foundation of teamwork, continuous learning, and a dedication to quality. Whether I'm working on a solo project or collaborating with others, I always strive to write clean, efficient, and scalable code. My goal is to create a product that not only works but also makes a difference in people's lives.
+              I believe that great software is built on a foundation of teamwork, continuous learning, and a dedication to quality. Whether I&apos;m working on a solo project or collaborating with others, I always strive to write clean, efficient, and scalable code. My goal is to create a product that not only works but also makes a difference in people&apos;s lives.
             </p>
 
-            <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>Let's Connect</h>
+            <h className="text-4xl font-fair font-semibold fade-in" ref={addToRefs}>Let&apos;s Connect</h>
             <p className="text-xl font-nunito text-error-A4 leading-8 mt-6 mb-12 fade-in" ref={addToRefs}>
-          When I'm not working on projects, I experiment with new technologies, staying updated on the latest industry trends, or working on my next project. I'm always eager to connect with others who share my enthusiasm, so feel free to reach out to me on 
+          When I&apos;m not working on projects, I experiment with new technologies, staying updated on the latest industry trends, or working on my next project. I&apos;m always eager to connect with others who share my enthusiasm, so feel free to reach out to me on 
           <a 
             href="https://www.linkedin.com/in/michael-chagnon-24514a254/" 
             target="_blank" 
