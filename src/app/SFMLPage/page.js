@@ -151,7 +151,7 @@ export default function Page() {
           <div className="z-10">
             <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Implementation</h2>
             <p className="z-10 font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
-            The code implements a Fibonacci LFSR by following a process similar to generating Fibonacci numbers, but instead of adding the numbers, it uses XOR operations on selected "tap" bits of the seed to generate a new bit. This new bit is then added to the sequence, and the seed is shifted, similar to how Fibonacci&apos;s sequence progresses by shifting and summing the last two numbers. Simulating a pseudo-random number sequence that uses the same iterative feedback principles as Fibonacci&apos;s sequence.
+            The code implements a Fibonacci LFSR by following a process similar to generating Fibonacci numbers, but instead of adding the numbers, it uses XOR operations on selected &quot;tap&quot; bits of the seed to generate a new bit. This new bit is then added to the sequence, and the seed is shifted, similar to how Fibonacci&apos;s sequence progresses by shifting and summing the last two numbers. Simulating a pseudo-random number sequence that uses the same iterative feedback principles as Fibonacci&apos;s sequence.
             </p>
           </div>
 
