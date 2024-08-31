@@ -23,9 +23,6 @@ import hap_face from "../../../public/images/hap-face.png";
 import mult_ui from "../../../public/images/mult_ui.png";
 import tabs from "../../../public/images/tabs.png";
 
-
-
-
 export default function Page() {
 
   const sectionsRef = useRef([]);

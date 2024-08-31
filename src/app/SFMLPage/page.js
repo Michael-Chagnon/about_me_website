@@ -26,13 +26,6 @@ import shape6 from "../../../public/images/shape6.png";
 import shape7 from "../../../public/images/shape7.png";
 import shape8 from "../../../public/images/shape8.png";
 
-
-
-
-
-
-
-
 export default function Page() {
 
   const sectionsRef = useRef([]);
@@ -73,13 +66,13 @@ export default function Page() {
   };
 
   return (
-    <div id="UTalent" className="scroll-smooth">
+    <div id="#Header" className="scroll-smooth">
       <Image className="absolute" src={shape6} alt="Shape 2" ref={addToRefs}></Image>
       <Image className="absolute mt-999 left-0 z-0 fade-in" src={shape7} alt="Shape 2" ref={addToRefs}></Image>
       <Image className="absolute mt-100 right-0 z-0 fade-in" src={shape8} alt="Shape 2" ref={addToRefs}></Image>
 
 
-      <div className="flex flex-col min-h-screen fade-in" ref={addToRefs}>
+      <div className="flex flex-col min-h-screen">
         <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
           <a href="/" legacyBehavior passHref>
@@ -95,19 +88,19 @@ export default function Page() {
         <div className="relative ml-24 mr-52 mt-16">
         <nav className="fixed right-0 mx-2 z-50 fade-in" ref={addToRefs}>
             <div className="font-nunito border-x border-y border-error-A4 shadow-custom rounded px-4 py-4 bg-error-white">
-            <Link href="" legacyBehavior passHref>
+            <Link href="#Header" legacyBehavior passHref>
               <p className=" cursor-pointer text-error-A4 text-xl hover:underline font-bold">Image Encoder</p>
             </Link>
-            <Link href="" legacyBehavior passHref>
+            <Link href="#Fibonacci" legacyBehavior passHref>
               <p className="cursor-pointer text-error-A4 hover:underline mt-2">Fibonacci’s Sequence</p>
             </Link>
-            <Link href="" legacyBehavior passHref>
+            <Link href="#Implementation" legacyBehavior passHref>
               <p className="cursor-pointer text-error-A4 hover:underline mt-2">Implementation</p>
             </Link>
-            <Link href="" legacyBehavior passHref>
+            <Link href="#SFML" legacyBehavior passHref>
               <p className="cursor-pointer text-error-A4 hover:underline mt-2">SFML</p>
             </Link>
-            <Link href="" legacyBehavior passHref>
+            <Link href="#Links" legacyBehavior passHref>
               <p className="cursor-pointer text-error-A4 hover:underline mt-2">Links</p>
             </Link>
             </div>
@@ -115,7 +108,7 @@ export default function Page() {
 
           <div>
           <a
-            href="https://u-talent.vercel.app/"
+            href="https://github.com/Michael-Chagnon/SFML-Image-Encoder-and-Decoder-main/tree/main"
             target="_blank"
             legacyBehavior
             passHref
@@ -128,15 +121,15 @@ export default function Page() {
 
           <div className="mt-12 flex">
             <div className="flex-1">
-              <h2 id="How" className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Fibonacci&apos;s Sequence</h2>
+              <h2 id="Fibonacci" className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>Fibonacci&apos;s Sequence</h2>
               <p className="font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
               Fibonacci&apos;s sequence is a series of numbers in which each number is the sum of the two preceding ones, starting from 0 and 1. The sequence typically begins as follows:
-<br/><br/>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
-<br/><br/>The sequence can be defined by the recurrence relation:
-<br/><br/>F(n) = F(n−1) + F(n−2)
-<br/><br/>With the initial conditions:
-<br/><br/>F(0) = 0, F(1) = 1
-<br/><br/>Where F(n) represents the nth Fibonacci number.
+                <br/><br/>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+                <br/><br/>The sequence can be defined by the recurrence relation:
+                <br/><br/>F(n) = F(n−1) + F(n−2)
+                <br/><br/>With the initial conditions:
+                <br/><br/>F(0) = 0, F(1) = 1
+                <br/><br/>Where F(n) represents the nth Fibonacci number.
               </p>
             </div>
             <div className="ml-12 my-auto">
@@ -144,7 +137,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div id="Why" className="h-0.5 bg-error-A470 my-12 mx-full rounded fade-in" ref={addToRefs}></div>
+          <div id="Implementation" className="h-0.5 bg-error-A470 my-12 mx-full rounded fade-in" ref={addToRefs}></div>
           
 
 
@@ -155,7 +148,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div id="Solution" className="my-16 mx-full rounded"></div>
+          <div id="SFML" className="my-16 mx-full rounded"></div>
 
 
           <div className="">
