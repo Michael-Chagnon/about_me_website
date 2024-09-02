@@ -20,6 +20,7 @@ import envelope from "../../../public/images/bi_envelope-fill.png";
 import linkedin from "../../../public/images/bi_linkedin.png";
 import git_image_dark from "../../../public/images/github-mark/github-mark.png";
 import self_picture from "../../../public/images/self_picture.png";
+import me from "../../../public/images/self_pic.png";
 
 
 
@@ -72,7 +73,7 @@ export default function Page() {
         <nav className="h-20 relative top-0 z-40">
           <div className="flex items-center justify-between">
           <a href="/" legacyBehavior passHref>
-            <div className="ml-24 font-comfortaa">Michael Chagnon</div>
+            <div className="ml-24 font-comfortaa hover:text-error-beautifulGreen">Michael Chagnon</div>
           </a>
             <div className="font-comfortaa flex justify-end flex-grow">
               <NavigationMenuDemo />
@@ -88,9 +89,9 @@ export default function Page() {
           <div className="clearfix mr-24 mt-16">
             <div className="float-right ml-24 -mt-20 mb-4 ">
             <Image
-              src={self_picture}
+              src={me}
               alt="Picture of me"
-              className="fade-in" ref={addToRefs}
+              className="fade-in w-96 h-96" ref={addToRefs}
             />
             </div>
               <h className="text-6xl font-fair font-semibold fade-in" ref={addToRefs}>About Me</h>
