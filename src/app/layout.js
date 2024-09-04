@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 import { Toaster } from "../components/ui/toaster";
 export const metadata = {
-  title: "UTalent",
-  description: "We are looking to revolutionize the Freelance market specifically for college students in hopes of growing student's skill sets, improving resumes/portfolios, and giving real-life applications in their respective fields. With UTalent we want to give the opportunities strictly to the younger generations.",
+  title: "Michael-Chagnon",
+  description: "I am an aspiring software developer, find some of my projects and a little more about me here!",
 };
 
 
