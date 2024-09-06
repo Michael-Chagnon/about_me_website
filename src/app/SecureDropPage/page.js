@@ -156,10 +156,10 @@ export default function Page() {
             <h2 className="font-nunito text-4xl font-normal text-error-A4 fade-in" ref={addToRefs}>User Experience</h2>
             <div className="font-nunito mt-4 text-xl font-normal text-error-A4 fade-in" ref={addToRefs}>
               <p className="mt-4">
-                First, start the server. Once it's running, you can launch the program, which will prompt you to either log in or sign up.
+                First, start the server. Once it&apos;s running, you can launch the program, which will prompt you to either log in or sign up.
               </p>
               <p className="mt-4">
-                After logging in or signing up, you'll be taken to the main page. From there, type <span className="font-bold">help</span> to view the available commands:
+                After logging in or signing up, you&apos;ll be taken to the main page. From there, type <span className="font-bold">help</span> to view the available commands:
               </p>
               <ul className="list-disc list-inside ml-6">
                 <li className="mt-2"><span className="font-bold">add:</span> Add contacts to your list, enabling you to send files to them.</li>
