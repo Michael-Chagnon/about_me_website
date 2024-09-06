@@ -79,21 +79,21 @@ export default function Page() {
             <div className="mx-12 text-center fade-in"ref={addToRefs}>
               <Image width={160} height={160} src={phone} />
               <h4 className="text-5xl mt-8 font-fair font-semibold text-error-buttonBlue whitespace-nowrap overflow-hidden text-ellipsis">Phone</h4>
-              <a href="https://www.linkedin.com/in/michael-chagnon-24514a254/" target="_blank" rel="noopener noreferrer">
+              <a href="tel:978-995-9876" target="_blank" rel="noopener noreferrer">
                 <p className="text-error-lightGray text-2xl mt-8 text-normal font-nunito whitespace-nowrap overflow-hidden text-ellipsis hover:underline">978-995-9876</p>
               </a>
             </div>
             <div className="mx-12 text-center flex flex-col items-center fade-in"ref={addToRefs}>
               <Image width={160} height={160} src={envelope} />
               <h4 className="text-5xl mt-8 font-fair font-semibold text-error-buttonBlue whitespace-nowrap overflow-hidden text-ellipsis">Email</h4>
-              <a href="https://www.linkedin.com/in/michael-chagnon-24514a254/" target="_blank" rel="noopener noreferrer">
+              <a href="mailto: michaelchagnon12@gmail.com" target="_blank" rel="noopener noreferrer">
                 <p className="text-error-lightGray text-2xl mt-8 text-normal font-nunito whitespace-nowrap overflow-hidden text-ellipsis hover:underline">michaelchagnon12@gmail.com</p>
               </a>
             </div>
             <div className="mx-12 text-center flex flex-col items-center fade-in"ref={addToRefs}>
               <Image width={160} height={160} src={git_image_dark} />
               <h4 className="text-5xl mt-8 font-fair font-semibold text-error-buttonBlue whitespace-nowrap overflow-hidden text-ellipsis">GitHub</h4>
-              <a href="https://www.linkedin.com/in/michael-chagnon-24514a254/" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Michael-Chagnon" target="_blank" rel="noopener noreferrer">
                 <p className="text-error-lightGray text-2xl mt-8 text-normal font-nunito whitespace-nowrap overflow-hidden text-ellipsis hover:underline">Michael-Chagnon</p>
               </a>
             </div>
